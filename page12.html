@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Pseudo Element Selector */
+        span::before {
+            content: 'Hi...';
+
+        }
+
+        span::after {
+            content: '...Bye!';
+        }
+
+        p::first-letter {
+            font-size: 50px;
+        }
+        p::first-line{
+            font-weight: bold;
+        }
+        p::before{
+            content: 'SAU';
+        }
+    </style>
+</head>
+
+<body>
+    <span id="aa">Hello World</span>
+    <br>
+    <span id="bb">(╯°□°）╯︵ ┻━┻</span>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi sapiente quod omnis, amet dolor rerum maiores
+        assumenda sed architecto voluptates nihil dignissimos optio repellat impedit ab aliquid aspernatur dolorum
+        voluptate provident! Voluptas itaque quaerat nobis adipisci? Modi nulla hic nisi dolor quo et! Amet minus est
+        quas eum illum?</p>
+
+</body>
+
+</html>

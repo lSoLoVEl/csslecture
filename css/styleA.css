@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  color: rgb(218, 38, 176);
+}
+h3 {
+  text-align: center;
+}
+#wow {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#woo {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+span {
+  font-weight: bold;
+  font-size: 30px;
+}
+img {
+  width: 150px;
+  border-radius: 10px;
+}
+#pic1 {
+  border: 2px solid red;
+}
+#pic2 {
+  border: 2px solid blue;
+}
