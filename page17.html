@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            padding: 10px;
+            justify-content: center;
+            gap: 10px;
+            background-color: blue;
+            margin: 0px;
+        }   
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: turquoise;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- CSS: Flex -->
+    <div
+      style="
+        border: 2px solid blue;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        /* flex-direction: column; */
+      "
+    >
+      <div style="border: 2px solid red">AAAA</div>
+      <div style="border: 2px solid red">BBBB</div>
+      <div style="border: 2px solid red">CCCC</div>
+      <div style="border: 2px solid red">DDDD</div>
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Login</a></li>
+      <li><a href="">Sign Up</a></li>
+    </ul>
+  </body>
+</html>
